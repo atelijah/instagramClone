@@ -1,0 +1,383 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-style: none;
+	font-family: Arial;
+}
+
+body{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: flex-start;
+}
+
+
+
+@media(max-width:876px){
+	.sidea{
+		display: none;
+	}
+	.div-diviser{
+	width: 100%;
+	padding: 1pc 0pc 1pc 0pc;
+	display: flex;
+	justify-content: center;
+	}
+
+	.diviser{
+		width: 90%;
+		height: 0.1px;
+		background-color: #00000025
+	}
+
+	.sidea img{
+		display: none;
+	}
+
+	.sideb{
+		width: 100vw;
+		height: 100vh;
+		background-color: #fafafa;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.groups{
+		width: 50%;
+		min-width: 23pc;
+	}
+
+	.group-logo{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+
+	}
+
+	.group{
+		background-color: #fff;
+		width: 100%;
+		border-style: solid;
+		border-color: #e1e1e1;
+		border-width: 1px;
+	}
+
+	.group #logo{
+		width: 10pc;
+		padding-top: 1pc;
+		margin-bottom: -1pc;
+	}
+
+	.account-yet{
+		width: 90%;
+		height: 2pc;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#profile-image{
+		width: 2.5pc;
+		height: 2.5pc;
+		border-radius: 50%;
+	}
+
+	#profile-image img{
+		width: 100%;
+		border-radius: 50%;
+	}
+		
+	.group hr {
+		width: 90%;
+	}
+
+	.group button{
+		border: none;
+		background-color: #0095f6;
+		padding: 0.5pc;
+		border-radius: 10%;
+		color: white;
+		font-weight: bold;
+		cursor: pointer;
+	}
+
+	#username{
+		font-weight: bold;
+		font-family: Arial;
+		font-size: 12pt;
+	}
+
+	.div-profile{
+		width: 15%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.div-btn{
+		width: 20%;
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.div-username{
+		width: 60%;
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.account-container{
+		width: 100%;
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+
+
+	.account-manage{
+		width: 100%;
+		height: 3pc;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-weight: bold;
+		color: #0095f6;
+		font-size: 11pt;
+	}
+
+	.am-text{
+		cursor: pointer;
+	}
+
+
+
+	.switch-or-signup{
+		width: 100%;
+		height: 3pc;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 11pt;
+	}
+
+	.ss-text b{
+		font-weight: bold;
+		color: #0095f6;
+		cursor: pointer;
+	}
+
+	.get-app{
+		width: 23pc;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 5vh;
+	}
+
+	.div-span-get{
+		width: 100%;
+		text-align: center;
+	}
+
+	.div-img-get{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-top: 4vh;
+	}
+
+	.div-img-get img{
+		width: 10pc;
+		cursor: pointer;
+	}
+}
+
+@media(min-width: 877px){
+	.div-diviser{
+	width: 100%;
+	padding: 1pc 0pc 1pc 0pc;
+	display: flex;
+	justify-content: center;
+	}
+
+	.diviser{
+		width: 90%;
+		height: 0.1px;
+		background-color: #00000025
+	}
+	.sidea{
+		width: 50vw;
+		background-color: #fafafa;
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.sidea img{
+		width: 28pc;
+		height: 95vh;
+	}
+
+	.sideb{
+		width: 50vw;
+		height: 100vh;
+		background-color: #fafafa;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.groups{
+		width: 50%;
+		min-width: 23pc;
+	}
+
+	.group-logo{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+
+	}
+
+	.group{
+		background-color: #fff;
+		width: 100%;
+		border-style: solid;
+		border-color: #e1e1e1;
+		border-width: 1px;
+	}
+
+	.group #logo{
+		width: 10pc;
+		padding-top: 1pc;
+		margin-bottom: -1pc;
+	}
+
+	.account-yet{
+		width: 90%;
+		height: 2pc;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#profile-image{
+		width: 2.5pc;
+		height: 2.5pc;
+		border-radius: 50%;
+	}
+
+	#profile-image img{
+		width: 100%;
+		border-radius: 50%;
+	}
+		
+	.group hr {
+		width: 90%;
+	}
+
+	.group button{
+		border: none;
+		background-color: #0095f6;
+		padding: 0.5pc;
+		border-radius: 10%;
+		color: white;
+		font-weight: bold;
+		cursor: pointer;
+	}
+
+	#username{
+		font-weight: bold;
+		font-family: Arial;
+		font-size: 12pt;
+	}
+
+	.div-profile{
+		width: 15%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.div-btn{
+		width: 20%;
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.div-username{
+		width: 60%;
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	.account-container{
+		width: 100%;
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+
+
+	.account-manage{
+		width: 100%;
+		height: 3pc;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-weight: bold;
+		color: #0095f6;
+		font-size: 11pt;
+	}
+
+	.am-text{
+		cursor: pointer;
+	}
+
+
+
+	.switch-or-signup{
+		width: 100%;
+		height: 3pc;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 11pt;
+	}
+
+	.ss-text b{
+		font-weight: bold;
+		color: #0095f6;
+		cursor: pointer;
+	}
+
+	.get-app{
+		width: 23pc;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 5vh;
+	}
+
+	.div-span-get{
+		width: 100%;
+		text-align: center;
+	}
+
+	.div-img-get{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-top: 4vh;
+	}
+
+	.div-img-get img{
+		width: 10pc;
+		cursor: pointer;
+	}
+}
+
+
+
